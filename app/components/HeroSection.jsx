@@ -17,7 +17,7 @@ const HeroSection = () => {
         >
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
-              Hello, I&apos;m{" "}
+              Hello, I&#39;m{" "}
             </span>
             <br></br>
             <TypeAnimation
@@ -28,7 +28,7 @@ const HeroSection = () => {
                 1000,
                 "Full Stack </>",
                 1000,
-                "CS:GO Player",
+                "Vue.js & React",
                 1000,
               ]}
               wrapper="span"
@@ -37,7 +37,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          Hello!, Im a passionate full stack developer dedicated to crafting exceptional web experiences. My focus is on turning ideas into digital reality. With skills in both frontend and backend development, I thrive on solving challenges and creating innovative solutions. Welcome to my portfolio!
+          Hello!, I&apos;m a passionate full stack developer dedicated to crafting exceptional web experiences. My focus is on turning ideas into digital reality. With skills in both frontend and backend development, I thrive on solving challenges and creating innovative solutions. Welcome to my portfolio!
           </p>
           <div>
             <Link

@@ -8,14 +8,26 @@ const TAB_DATA = [
     title: "SKills",
     id: "skills",
     content: (
-      <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>JavaScript</li>
-        <li>Vue</li>
-        <li>React</li>
-        <li>TailwindCSS</li>
-      </ul>
+      <div className="flex justify-normal items-start">
+        <ul className="list-disc pl-2 mr-10">
+          <li>Vue</li>
+          <li>React</li>
+          <li>TypeScript</li>
+          <li>JavaScript</li>
+          <li>TailwindCSS</li>
+          <li>Node.js</li>
+          <li>Express</li>
+        </ul>
+        <ul className="list-disc pl-2">
+          <li>Git</li>
+          <li>Postman</li>
+          <li>Insomnia</li>
+          <li>Docker</li>
+          <li>Prisma</li>
+          <li>CSS/SASS</li>
+          <li>Nest.js</li>
+        </ul>
+      </div>
     )
   },
   {
@@ -57,12 +69,9 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
+            I&apos;m a programmer, and as such, I&apos;m a nerd. What does that mean? It means I play video games.
+            What do I mean by that? It means that if you&apos;re not sure about hiring me, we can have a 1v1 in CS:GO, LoL, Tekken 7, or even a classic like Tetris.
+            So, if I win, you&apos;re obligated to hire me. Good luck.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
