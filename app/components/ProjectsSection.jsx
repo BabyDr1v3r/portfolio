@@ -13,6 +13,15 @@ const projectsData = [
     tag: ["All", "Web"],
     gitUrl: "https://github.com/BabyDr1v3r/next-acme/tree/main",
     previewUrl: "https://next-acme-nine.vercel.app"
+  },
+  {
+    id: 2,
+    title: "Vue3 & TailwindCSS Lib",
+    description: "Component library with Vue.js & TailwindCSS",
+    image: "/images/projects/valko-devs-lib.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/ValkoDevs/valko-ui",
+    previewUrl: "/"
   }
 ]
 
