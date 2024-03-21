@@ -64,14 +64,14 @@ const AboutSection = () => {
 
   return (
     <section className="text-white" id="about">
-      <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/about-image.png" alt="about" width={500} height={500} />
-        <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
+      <div className="md:grid md:grid-cols-2 gap-12 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
+        <Image src="/images/about-me.jpg" alt="about" width={700} height={700} />
+        <div className="mt-4 md:mt-0 text-left flex flex-col h-full ml-5">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I&apos;m a programmer, and as such, I&apos;m a nerd. What does that mean? It means I play video games.
-            What do I mean by that? It means that if you&apos;re not sure about hiring me, we can have a 1v1 in CS:GO, LoL, Tekken 7, or even a classic like Tetris.
-            So, if I win, you&apos;re obligated to hire me. Good luck.
+          Hi there! I&apos;m a 25-year-old programmer hailing from Córdoba, Argentina. I specialize in frontend development, but i kinda like more backend, where I thrive on crafting robust systems to power applications and websites.
+          Beyond coding, I&apos;m an avid gamer, finding inspiration in the creativity and complexity of game software design. Sports like soccer and basketball are also passions of mine, keeping me active and balanced.
+          I&apos;m always eager to tackle new challenges and explore innovative projects in the tech sphere. Let&apos;s connect and collaborate on exciting ventures!
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
